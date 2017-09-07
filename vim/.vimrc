@@ -166,5 +166,7 @@ map <leader>e :e! ~/.vim_runtime/vimrc<cr>
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 
+" fast escaping
+imap fd <Esc>
 
 
